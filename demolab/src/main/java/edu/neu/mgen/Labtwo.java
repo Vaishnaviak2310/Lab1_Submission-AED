@@ -2,9 +2,9 @@ package edu.neu.mgen;
 
 abstract class Animal {
     protected String name;
-    protected double typicalSize; // In centimeters or meters
-    protected double typicalWeight; // In kilograms
-    protected String diet; // "vegetarian" or "non-vegetarian"
+    protected double typicalSize; 
+    protected double typicalWeight; 
+    protected String diet; 
     
     public Animal(String name, double typicalSize, double typicalWeight, String diet) {
         this.name = name;
@@ -17,7 +17,7 @@ abstract class Animal {
 }
 
 class Bird extends Animal {
-    private double wingspan; // In centimeters
+    private double wingspan; 
 
     public Bird(String name, double typicalSize, double typicalWeight, String diet, double wingspan) {
         super(name, typicalSize, typicalWeight, diet);
